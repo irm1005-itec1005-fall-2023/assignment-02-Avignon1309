@@ -3,17 +3,244 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+
+ body {
+  background: #ffeeee; 
+}
+
+.header {
+  padding: 1.5rem;
+  background-color: #983c55;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+header .header_topic ul {
+  display: flex;
+  gap: 6rem;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 2rem;
 }
+
+
+header .header_topic ul li a {
+  text-decoration: none;
+  color: #eeeac7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+
+
+.top1 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.top1_desc {
+  display: flex;
+  justify-content: center;
+}
+
+.tag1 {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.Occitania {
+  padding-left: 6rem;
+  font-size: 30px;
+}
+
+.tag3 {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.admin {
+  padding-left: 6rem;
+  font-size: 30px;
+  padding-top: 2rem;
+}
+
+.adminlist {
+  padding-left: 8rem;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 5rem;
+}
+
+.Occitanlanguage {
+  padding-left: 6rem;
+  font-size: 30px;
+}
+
+.tag4 {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.catalanguage {
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-size: 30px;
+  
+}
+
+.tag5 {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+  padding-bottom: 5rem;
+}
+
+.image1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.taghistory {
+  padding: 2rem;
+  
+  font-size: 2rem;
+}
+
+.tag6 {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.defini {
+  padding-left: 6rem;
+  font-size: 30px;
+}
+
+.defini_desc {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.langua {
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-size: 30px;
+}
+
+.langua_desc {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+  padding-bottom: 5rem;
+}
+
+.cultural {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.litera {
+  padding-left: 6rem;
+  font-size: 30px;
+}
+
+.litera_desc {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.food {
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-size: 30px;
+}
+
+.food_desc {
+  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-top: 10px;
+  font-style: italic;
+  padding-bottom: 5rem;
+}
+
+.declar {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.guide {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  padding-top: 2rem;
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+.lastlogo {
+  width: 5rem;
+}
+
+footer {
+  padding: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #983c55;
+  align-items: center;
+}
+
+footer .footer_desc ul {
+  
+  display: flex;
+  gap: 11rem;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 2rem;
+}
+
+footer .footer_desc ul li a {
+  text-decoration: none;
+  color: #eeeac7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+}
+
+.copy2023 {
+  padding-left: 1rem;
+  background-color: #983c55;
+  color: #eeeac7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
